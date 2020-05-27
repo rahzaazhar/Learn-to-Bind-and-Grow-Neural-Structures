@@ -5,7 +5,7 @@ from scipy.stats import rankdata, spearmanr
 #import pyrsa.data as rsd
 #import pyrsa.rdm as rsr
 #from torchvision.models._utils import IntermediateLayerGetter
-from modelv1 import GradCL
+from models import GradCL
 class pyRSA():
     def __init__(self,patterns1,patterns2):
         
