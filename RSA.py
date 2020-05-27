@@ -42,7 +42,7 @@ class RSA():
     def compute_RDM_similarity(self):
         #self.rank_RDMs()
         self.similarity, _ = spearmanr(self.rdm1,self.rdm2)
-        self.dissimilarity = self.similarity
+        self.dissimilarity = 1-self.similarity
 
 def test2():
     template = {'linear1_input':nn.Linear(32*32,300),'relu1':nn.ReLU(),'linear2':nn.Linear(300,300),'relu2':nn.ReLU(),
