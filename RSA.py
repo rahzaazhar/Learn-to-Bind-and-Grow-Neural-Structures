@@ -2,8 +2,8 @@ import numpy as np
 import torch.nn as nn
 from scipy.spatial.distance import pdist, squareform
 from scipy.stats import rankdata, spearmanr
-import pyrsa.data as rsd
-import pyrsa.rdm as rsr
+#import pyrsa.data as rsd
+#import pyrsa.rdm as rsr
 #from torchvision.models._utils import IntermediateLayerGetter
 from modelv1 import GradCL
 class pyRSA():
